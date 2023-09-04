@@ -1,0 +1,209 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Lexend", Calibri, 'Trebuchet MS', sans-serif;
+    color: #111111;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 200%;
+}
+img {  
+    user-select: none;
+}
+.transContainer > img {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+p {
+    max-width: 50ch;
+    line-height: 4.20rem;
+}
+.fine {
+    max-width: none;
+    font-size: 75%;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 3rem;
+}
+a {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold;
+}
+li {
+    line-height: 3rem;
+}
+body > section {
+    width: 100%;
+    padding: 5rem;
+    overflow: hidden;
+}
+body > .transition {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    position: relative;
+    /* overflow: visible; */
+}
+.content {
+    margin: 0 15%;
+}
+.buffer {
+    width: 15%;
+}
+.small {
+    height: 2rem;
+}
+.medium {
+    height: 4rem;
+}
+.large {
+    height: 8rem;
+}
+.transContainer {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}
+.upwards {
+    bottom: -0.5rem;
+}
+.downwards {
+    top: -0.5rem;
+}
+.imgContainer {
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.transitionImg {
+    min-width: 1200px;
+}
+table {
+    text-align: left;
+    width: 55%;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+tr td {
+    transition: text-shadow 0.25s ease 0s;
+}
+/* tr:hover td {
+    text-shadow: 0 0 5px white;
+} */
+button {
+    font-family: "Lexend", Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2.25rem 2.5rem;
+    font-size: 85%;
+    border-width: 3px;
+    border-style: solid;
+    transition: background-color 0.15s ease 0s, color 0.15s ease 0s, border-color 0.15s ease 0s, color 0.15s ease 0s;
+}
+.regButton {
+    border-color: #222222;
+    background-color: white;
+}
+.invButton {
+    border-color: #222222;
+    background-color: white;
+    /* color: white; */
+}
+button:hover {
+    border-color: #222222;
+    background-color: #222222;
+    color: white;
+    cursor: pointer;
+}
+/* .invButton:hover {
+    background-color: white;
+    color: inherit;
+} */
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.accordion {
+    width: 100%;
+    text-align: left;
+    padding: 2.25rem 2.5rem;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 100%;
+    /* font-weight: bold; */
+    border-bottom: 2px solid white;
+    transition: background-color 0.15s ease 0s, color 0.15s ease 0s, border-color 0.15s ease 0s, color 0.15s ease 0s;
+}
+.accordion:before {
+    content: "\002B";
+    font-size: 100%;
+    margin-right: 0.75rem;
+    display: inline-block;
+}
+.active:before {
+    content: "\2212";
+    transform: translateY(-1px);
+}
+.accordion:hover {
+    background-color: #e6e6e6;
+    color: inherit;
+    border-color: initial;
+}
+.panel {
+    padding: 0 2.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+hr {
+    
+}
+.pale {
+
+}
+.orange {
+    background-color: #ef8547;
+    /* background-color: #d68931; */
+}
+.blue {
+    background-color: #506eb1;
+}
+.gray {
+    color: white;
+    background-color: #3c3c3c;
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    /* padding: 5rem; */
+    overflow: hidden;
+}
+
+footer p {
+    line-height: normal;
+}
+
+#footerInfo {
+    margin-top: 3rem;
+}
+
+#footerInfo p {
+    margin: 1rem 0;
+}

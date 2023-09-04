@@ -1,0 +1,214 @@
+@media screen and (orientation:portrait) {
+    
+}
+@media screen and (orientation:landscape) {
+    
+}
+@media only screen and (max-width: 1900px) {
+    html {
+        font-size: 14px;
+    }
+    /* body {
+        font-size: 175%;
+    }
+    p {
+        line-height: 3.675rem;
+    }
+    .fine {
+        line-height: 1.75rem;
+        font-size: 65.625%;
+    }
+    h1 {
+        font-size: 2.625rem;
+    }
+    .content {
+        margin: 0 10%;
+    } */
+}
+@media only screen and (max-width: 1500px) {
+    /* body {
+        font-size: 150%;
+    }
+    p {
+        line-height: 3.15rem;
+    }
+    .fine {
+        line-height: 1.5rem;
+        font-size: 56.25%;
+    }
+    h1 {
+        font-size: 2.25rem;
+    } */
+    .content {
+        margin: 0 7.5%;
+    }
+    table {
+        width: 75%;
+    }
+    /* #problemsImg {
+        width: 60%;
+    } */
+}
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+    button {
+        border-width: 2.75px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #bannerSplash {
+        background-image: url("../images/v-splash.png");
+        background-position: bottom center;
+        max-height: 60rem;
+        height: 100%;
+        min-height: 60rem;
+        /* top: 17.5%; */
+    }
+    #welcomeImg {
+        background-size: contain;
+        background-image: url("../images/bear1-cropped.png");
+        background-position: left bottom;
+        /* width: 25%; */
+        width: 25rem;
+        /* border: 1px solid blue; */
+    }
+    #welcomeText {
+        width: 75%;
+        /* border: 1px solid blue; */
+    }
+    /* #welcome .content {
+        border: 1px solid red;
+        margin: 0;
+    } */
+    #welcome {
+        padding: 5rem 5rem 5rem 0;
+    }
+    #welcomeContests, #leaderboards {
+        margin-left: 5rem;
+    }
+    #problemsImg {
+        background-image: url("../images/props-cropped.png");
+        background-position: right bottom;
+        width: 25%;
+    }
+    #problemsText {
+        width: 75%;
+    }
+    #problems {
+        padding: 5rem 0 5rem 5rem;
+    }
+    #leaderboard {
+        /* padding-left: 5rem; */
+    }
+    table {
+        width: 100%;
+    }
+    .content {
+        margin: 0;
+    }
+    footer {
+        margin: 0 7.5%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 8px;
+    }
+    button {
+        border-width: 1.5px;
+    }
+    #bannerLogo {
+        height: 40%;
+        max-height: 12rem;
+        max-width: 52rem;
+        width: 100%;
+    }
+    #bannerSplash {
+        max-height: 54rem;
+        height: 100%;
+        min-height: 50rem;
+    }
+    #welcome > div:nth-child(4) {
+        align-items: center;
+    }
+    #welcomeContests {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .contestCard {
+        margin-top: 2.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .contestCard > img {
+        width: 20%;
+    }
+    .contestCard > p:first-of-type {
+        font-size: 125%;
+    }
+    .contestCard > p:last-of-type {
+        margin-top: 0;
+        max-width: 80%;
+        line-height: 3.5rem;
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #bannerLogo {
+        height: 12rem;
+        width: 52rem;
+    }
+    #bannerContent {
+        width: 54rem;
+    }
+    #bannerSplash {
+        height: 54rem;
+        width: 54rem;
+    }
+    #welcomeImg {
+        display: none;
+    }
+    #welcomeText {
+        margin: 0;
+    }
+    #welcome {
+        padding: 0;
+        padding-top: 5rem;
+    }
+    #welcome > .content {
+        justify-content: center;
+    }
+    #problemsImg {
+        display: none;
+    }
+    #problemsText {
+        margin: 0;
+    }
+    #problems > .content > .problemsTopRow {
+        margin: 0;
+        justify-content: center;
+    }
+    #problems {
+        padding: 0;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+}
